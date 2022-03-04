@@ -338,8 +338,10 @@ body {
     font-family: "Helvetica";
     font-size: 0.75rem;
     margin-top: 4px;
-    padding: 5px 15px;
     background-color: transparent;
+    height: 30px;
+    width: auto;
+    padding: 5px 0;
 }
 
 .collapse-trigger {
