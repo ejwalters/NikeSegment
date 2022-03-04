@@ -1,10 +1,10 @@
 function send(method) {
   switch (method) {
     case "page":
-      analytics.page("View Cart");
+      analytics.page("Checkout");
       break;
-    case "track":
-      analytics.track("Sample Track Event", {
+    case "view":
+      analytics.track("View New Releases", {
         sampleProperty: true
       });
       break;
