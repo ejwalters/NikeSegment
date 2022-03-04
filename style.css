@@ -174,16 +174,6 @@ body {
     padding: 5px 15px;
 }
 
-#login-button {
-    outline:none;
-    border: none;
-    font-family: "Helvetica";
-    font-size: 0.75rem;
-    margin-top: 4px;
-    padding: 5px 15px;
-    background-color: transparent;
-}
-
 .li-box li i {
     font-size: 1rem;
     margin-top: -4px;
@@ -340,6 +330,16 @@ body {
 
 .absolute-dropdown.expand {
     transform: translatey(0);
+}
+
+#login-button {
+    outline:none;
+    border: none;
+    font-family: "Helvetica";
+    font-size: 0.75rem;
+    margin-top: 4px;
+    padding: 5px 15px;
+    background-color: transparent;
 }
 
 .collapse-trigger {
