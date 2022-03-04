@@ -240,6 +240,18 @@ body {
 #new-release-button {
     outline:none;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Carrois Gothic SC';
+    font-size: 0.90rem;
+    font-weight: 1000;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    background-color: transparent;
 }
 
 .nav-bottom-right button {
