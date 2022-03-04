@@ -249,6 +249,10 @@ body {
     outline:none;
 }
 
+.nav-top-right button:focus {
+    outline:none;	
+}
+
 .nav-bottom-right input {
     width: 150px;
     border: none;
