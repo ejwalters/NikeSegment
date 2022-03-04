@@ -1,15 +1,15 @@
 function send(method) {
   switch (method) {
     case "page":
-      analytics.page("Sample Page Event");
+      analytics.page("View Cart");
       break;
     case "track":
       analytics.track("Sample Track Event", {
         sampleProperty: true
       });
       break;
-    case "identify":
-      analytics.identify("sampleUserId", {
+    case "login":
+      analytics.identify("ejwalters", {
         sampleTrait: true
       });
       break;
