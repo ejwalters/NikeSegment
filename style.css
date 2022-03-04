@@ -341,7 +341,7 @@ body {
     background-color: transparent;
     height: 30px;
     width: auto;
-    padding: 5px 15px;
+    padding: 5px 15px 10px;
 }
 
 .collapse-trigger {
