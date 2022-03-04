@@ -237,6 +237,11 @@ body {
     padding-right: 40px;
 }
 
+#new-release-button {
+    outline:none;
+    border: none;
+}
+
 .nav-bottom-right button {
     border: none;
     padding: 10px 10px;
