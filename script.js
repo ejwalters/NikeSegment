@@ -13,8 +13,8 @@ function send(method) {
         sampleTrait: true
       });
       break;
-    case "group":
-      analytics.group("sampleGroupId", {
+    case "sneaker":
+      analytics.group("View Product", {
         sampleGroupTrait: true
       });
       break;
