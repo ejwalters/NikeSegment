@@ -1,7 +1,7 @@
 function send(method) {
   switch (method) {
     case "page":
-      analytics.page("Checkout");
+      analytics.page("Cart Viewed");
       break;
     case "view":
       analytics.track("View New Releases", {
