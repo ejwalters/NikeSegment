@@ -9,13 +9,16 @@ function send(method) {
       });
       break;
     case "login":
-      analytics.identify("ejwalters", {
-        sampleTrait: true
+      analytics.identify("43259820234", {
+        name: 'Eric Walters',
+        email: 'ejwalters24@gmail.com',
+        favoriteTeam: 'Cleveland Browns'
       });
       break;
     case "sneaker":
-      analytics.group("View Product", {
-        sampleGroupTrait: true
+      analytics.page("View Product", {
+        productId: 'AM2702022',
+        productName: 'Air Max 270'
       });
       break;
     default:
