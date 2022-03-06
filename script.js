@@ -11,7 +11,7 @@ function send(method) {
     case "login":
       analytics.identify("43259820233", {
         name: 'Ann Walters',
-        email: 'amjesko@gmai.com',
+        email: 'amjesko@gmail.com',
         favoriteTeam: 'Cleveland Cavaliers'
       });
       break;
