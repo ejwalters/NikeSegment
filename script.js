@@ -9,9 +9,9 @@ function send(method) {
       });
       break;
     case "login":
-      analytics.identify("43259820234", {
-        name: 'Eric Walters',
-        email: 'ejwalters24@gmail.com',
+      analytics.identify("43259820232", {
+        name: 'Ryan Walters',
+        email: 'rjwalters@gmail.com',
         favoriteTeam: 'Cleveland Browns'
       });
       break;
