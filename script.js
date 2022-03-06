@@ -9,10 +9,10 @@ function send(method) {
       });
       break;
     case "login":
-      analytics.identify("43259820234", {
-        name: 'Eric Walters',
-        email: 'ejwalters24@gmai.com',
-        favoriteTeam: 'Cleveland Browns'
+      analytics.identify("43259820233", {
+        name: 'Ann Walters',
+        email: 'amjesko@gmai.com',
+        favoriteTeam: 'Cleveland Cavaliers'
       });
       break;
     case "sneaker":
