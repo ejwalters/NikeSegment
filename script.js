@@ -1,7 +1,9 @@
 function send(method) {
   switch (method) {
     case "page":
-      analytics.page("Cart Viewed");
+      analytics.page("Cart Viewed", {
+        itemsInCart: ('Air Max 270')
+      });
       break;
     case "view":
       analytics.track("View New Releases", {
