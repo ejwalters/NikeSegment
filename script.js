@@ -2,7 +2,8 @@ function send(method) {
   switch (method) {
     case "page":
       analytics.page("Cart Viewed", {
-        itemsInCart: ('Air Max 270')
+        itemsInCart: ('Air Max 270'),
+        cartTotal: '$96.76'
       });
       break;
     case "view":
